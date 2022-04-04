@@ -7,7 +7,7 @@
 }
 
 .address-containe:hover{
-    @apply border-white
+    @apply border-white;
 }
 
 .item-nav-mid {
@@ -18,8 +18,16 @@
     @apply border-white;
 }
 
+.item-nav-bottom{
+    @apply  border-b-2 border-transparent py-1 px-3;
+}
+
+.item-nav-bottom:hover{
+    @apply text-orange-650 border-orange-650;
+}
+
 @screen md {
     .address-container{
-        @apply py-0
+        @apply py-0;
     }
 }
