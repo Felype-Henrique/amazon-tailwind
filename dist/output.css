@@ -515,6 +515,16 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-bottom: 0.5rem;
 }
 
+.my-6 {
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.my-8 {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
 .mr-0 {
   margin-right: 0px;
 }
@@ -553,6 +563,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .mb-2 {
   margin-bottom: 0.5rem;
+}
+
+.mt-10 {
+  margin-top: 2.5rem;
 }
 
 .block {
@@ -749,6 +763,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   padding-bottom: 0.5rem;
 }
 
+.pr-2 {
+  padding-right: 0.5rem;
+}
+
 .text-center {
   text-align: center;
 }
@@ -792,6 +810,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .leading-tight {
   line-height: 1.25;
+}
+
+.leading-5 {
+  line-height: 1.25rem;
 }
 
 .text-white {
@@ -888,10 +910,56 @@ Ensure the default browser behavior of the `hidden` attribute.
   color: rgb(228 121 17 / var(--tw-text-opacity));
 }
 
+.btn-amazon-prime {
+  display: block;
+  height: 3rem;
+  width: 100%;
+  align-items: center;
+  border-radius: 0.25rem;
+  border-width: 1px;
+  --tw-border-opacity: 1;
+  border-color: rgb(161 98 7 / var(--tw-border-opacity));
+  --tw-bg-opacity: 1;
+  background-color: rgb(240 193 75 / var(--tw-bg-opacity));
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+  text-align: center;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+}
+
 @media (min-width: 768px) {
   .address-container {
     padding-top: 0px;
     padding-bottom: 0px;
+  }
+
+  .btn-amazon-prime {
+    margin-left: 2.5rem;
+  }
+
+  .btn-amazon-prime {
+    display: flex;
+  }
+
+  .btn-amazon-prime {
+    height: 2rem;
+  }
+
+  .btn-amazon-prime {
+    width: auto;
+  }
+
+  .btn-amazon-prime {
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+
+  .btn-amazon-prime {
+    font-size: 0.75rem;
+    line-height: 1rem;
   }
 }
 
@@ -965,12 +1033,24 @@ Ensure the default browser behavior of the `hidden` attribute.
     width: auto;
   }
 
+  .md\:w-3\/4 {
+    width: 75%;
+  }
+
+  .md\:flex-row {
+    flex-direction: row;
+  }
+
   .md\:rounded-none {
     border-radius: 0px;
   }
 
   .md\:border {
     border-width: 1px;
+  }
+
+  .md\:border-r-2 {
+    border-right-width: 2px;
   }
 
   .md\:px-0 {
