@@ -525,6 +525,16 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-bottom: 2rem;
 }
 
+.mx-3 {
+  margin-left: 0.75rem;
+  margin-right: 0.75rem;
+}
+
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .mr-0 {
   margin-right: 0px;
 }
@@ -567,6 +577,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .mt-10 {
   margin-top: 2.5rem;
+}
+
+.mb-4 {
+  margin-bottom: 1rem;
 }
 
 .block {
@@ -741,6 +755,11 @@ Ensure the default browser behavior of the `hidden` attribute.
 .px-1 {
   padding-left: 0.25rem;
   padding-right: 0.25rem;
+}
+
+.px-6 {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
 }
 
 .pl-1 {
@@ -1017,6 +1036,10 @@ Ensure the default browser behavior of the `hidden` attribute.
     margin-right: 0.5rem;
   }
 
+  .md\:mb-0 {
+    margin-bottom: 0px;
+  }
+
   .md\:block {
     display: block;
   }
@@ -1035,6 +1058,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
   .md\:w-3\/4 {
     width: 75%;
+  }
+
+  .md\:w-75px {
+    width: 75px;
   }
 
   .md\:flex-row {
@@ -1056,6 +1083,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   .md\:px-0 {
     padding-left: 0px;
     padding-right: 0px;
+  }
+
+  .md\:text-left {
+    text-align: left;
   }
 
   .md\:text-3xl {
