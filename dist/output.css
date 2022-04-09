@@ -639,6 +639,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   width: 50%;
 }
 
+.w-3\/4 {
+  width: 75%;
+}
+
 .flex-grow {
   flex-grow: 1;
 }
@@ -782,6 +786,11 @@ Ensure the default browser behavior of the `hidden` attribute.
   background-color: rgb(229 231 235 / var(--tw-bg-opacity));
 }
 
+.bg-darkblue-700 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(35 47 62 / var(--tw-bg-opacity));
+}
+
 .p-2 {
   padding: 0.5rem;
 }
@@ -824,6 +833,11 @@ Ensure the default browser behavior of the `hidden` attribute.
 .py-4 {
   padding-top: 1rem;
   padding-bottom: 1rem;
+}
+
+.py-10 {
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
 }
 
 .pl-1 {
@@ -903,6 +917,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   line-height: 1.25rem;
 }
 
+.leading-4 {
+  line-height: 1rem;
+}
+
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
@@ -941,6 +959,11 @@ Ensure the default browser behavior of the `hidden` attribute.
 .text-red-700 {
   --tw-text-opacity: 1;
   color: rgb(185 28 28 / var(--tw-text-opacity));
+}
+
+.text-gray-400 {
+  --tw-text-opacity: 1;
+  color: rgb(156 163 175 / var(--tw-text-opacity));
 }
 
 .underline {
@@ -1075,6 +1098,11 @@ Ensure the default browser behavior of the `hidden` attribute.
   background-color: rgb(250 166 58 / var(--tw-bg-opacity));
 }
 
+.hover\:bg-darkblue-500:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(72 87 105 / var(--tw-bg-opacity));
+}
+
 .hover\:text-orange-650:hover {
   --tw-text-opacity: 1;
   color: rgb(228 121 17 / var(--tw-text-opacity));
@@ -1119,12 +1147,12 @@ Ensure the default browser behavior of the `hidden` attribute.
     margin-right: 0.5rem;
   }
 
-  .md\:mb-0 {
-    margin-bottom: 0px;
-  }
-
   .md\:mb-2 {
     margin-bottom: 0.5rem;
+  }
+
+  .md\:mb-0 {
+    margin-bottom: 0px;
   }
 
   .md\:block {
@@ -1163,6 +1191,10 @@ Ensure the default browser behavior of the `hidden` attribute.
     flex-direction: row;
   }
 
+  .md\:justify-around {
+    justify-content: space-around;
+  }
+
   .md\:rounded-none {
     border-radius: 0px;
   }
@@ -1178,6 +1210,11 @@ Ensure the default browser behavior of the `hidden` attribute.
   .md\:px-0 {
     padding-left: 0px;
     padding-right: 0px;
+  }
+
+  .md\:px-20 {
+    padding-left: 5rem;
+    padding-right: 5rem;
   }
 
   .md\:pr-12 {
