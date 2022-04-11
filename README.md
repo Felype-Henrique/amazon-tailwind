@@ -1,4 +1,4 @@
-#  Amazon Login - Clone usando Tailwind
+#  Amazon - Clone usando Tailwind
 
 ![Facebook_login](https://github.com/Felype-Henrique/amazon-tailwind/blob/main/src/img/readme/amazon_web.gif)
 
